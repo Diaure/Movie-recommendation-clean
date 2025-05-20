@@ -217,7 +217,7 @@ if st.session_state["is_admin"]:
             success = update_movie_data() and run_treatment_script()
             if success:
                 st.success("✅ Mise à jour réussie.")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("❌ Échec de la mise à jour.")
 
