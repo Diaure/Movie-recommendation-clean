@@ -50,9 +50,6 @@ st.markdown(
 if "page" not in st.session_state:
     st.session_state["page"] = "accueil"
 
-st.title("✅ DÉMARRAGE OK")
-st.write("Si tu vois ce message, l’app est bien lancée.")
-
 #***********************************************************************************
 # CHARGEMENT DES MODELES & DONNEES STATIQUES
 #***********************************************************************************
