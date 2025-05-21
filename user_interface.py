@@ -244,11 +244,6 @@ def user_choice(df_movies):
                     st.session_state["selected_movie"] = selected_movie
 
 # fonction détails des films
-st.write(df_movies["genres_liste"])
-# st.write(df_now_playing["genres"])
-# st.write(df_upcoming["genres"])
-st.write(df_now_playing.columns)
-st.write(df_upcoming.columns)
 def movie_details(df, selected_movie):
                         
     # définir la table pour récupérer les informations du film
